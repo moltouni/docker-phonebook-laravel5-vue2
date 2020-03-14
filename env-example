@@ -33,7 +33,7 @@ COMPOSE_FILE=docker-compose.yml
 COMPOSE_PATH_SEPARATOR=:
 
 # Define the prefix of container names. This is useful if you have multiple projects that use laradock to have seperate containers per project.
-COMPOSE_PROJECT_NAME=laradock
+COMPOSE_PROJECT_NAME=phonebook-laravel5-vue2
 
 ### PHP Version ###########################################
 
@@ -859,7 +859,7 @@ GEARMAN_MYSQL_PORT=3306
 # Mysql server user (Default: root)
 GEARMAN_MYSQL_USER=root
 # Mysql password
-GEARMAN_MYSQL_PASSWORD=	
+GEARMAN_MYSQL_PASSWORD=
 # Path to file with mysql password(Docker secrets)
 GEARMAN_MYSQL_PASSWORD_FILE=
 # Database to use by Gearman (Default: Gearmand)
